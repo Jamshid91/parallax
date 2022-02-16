@@ -1,103 +1,36 @@
-* {
-    padding: 0;
+*{
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
 }
-
-body {
-    font-family: sans-serif;
-}
-
-h2 {
-    background-color: #222222;
-    padding: 5px 15px;
-    border-radius: 5px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.box {
-    width: 100%;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box1 {
-    height: 300px;
-}
-.parallax {
-    background-repeat: no-repeat;
-    background-position: center;
+.parallax{
+    background: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
     background-size: cover;
-    height: 500px;
-    width: 100%;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: aliceblue;
 }
-.parallax1 {
-    background-image: url('../../images/bg_003.jpg');
+.parallax-1{
+    background: url('https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
 }
-.parallax2 {
-    background-image: url('../../images/terminal.jpg');
+.parallax-2{
+    background: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
 }
-.box2, .box3 {
-    height: 500px;
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .container {
-//     max-width: 1170px;
-//     margin: 0 auto;
-// }
-
-// header {
-//     width: 100%;
-//     height: 285px;
-//     background-color: #fff;
-// }
-
-// .parallax {
-//     min-height: 500px;
-//     background: transparent;
-// }
-
-// .company {
-//     background-color: #0006;
-//     z-index: 2;
-// }
-// .company__btn {
-//     width: 180px;
-//     height: 40px;
-//     background-color: #01b8d4;
-//     border-radius: 5px;
-//     color: #fff;
-//     border: none;
-//     outline: none;
-// }
+h3{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 160px;
+    text-align: center;
+}

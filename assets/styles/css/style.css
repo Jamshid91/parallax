@@ -1,74 +1,45 @@
 * {
-  padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-h2 {
-  background-color: #222222;
-  padding: 5px 15px;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.box {
-  width: 100%;
-  background-color: #ccc;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.box1 {
-  height: 300px;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .parallax {
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
   -webkit-background-size: cover;
           background-size: cover;
-  height: 500px;
-  width: 100%;
-  background-attachment: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  color: aliceblue;
 }
 
-.parallax1 {
-  background-image: url("../../images/bg_003.jpg");
+.parallax-1 {
+  background: url("https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: aliceblue;
 }
 
-.parallax2 {
-  background-image: url("../../images/terminal.jpg");
+.parallax-2 {
+  background: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: aliceblue;
 }
 
-.box2, .box3 {
-  height: 500px;
+.parallax-inner {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 160px;
+  text-align: center;
 }
