@@ -1,45 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: 100;
-  font-family: 'Open Sans', sans-serif;
+body {
+  margin: auto 0;
+  background: #DCDCDC;
 }
 
-.parallax {
-  background: url("https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
-  -webkit-background-size: cover;
-          background-size: cover;
-  color: aliceblue;
+.container {
+  margin: 52px 100px;
+  height: auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.parallax-1 {
-  background: url("https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
-  -webkit-background-size: cover;
-          background-size: cover;
-  color: aliceblue;
+.toolbar {
+  background-color: #FFFFFF;
+  padding: 24px;
 }
 
-.parallax-2 {
-  background: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
-  -webkit-background-size: cover;
-          background-size: cover;
-  color: aliceblue;
+.logo-glitch-index {
+  float: right;
+  height: 100%;
+  -webkit-transform: translate(0%, -30%) !important;
+      -ms-transform: translate(0%, -30%) !important;
+          transform: translate(0%, -30%) !important;
 }
 
-.parallax-inner {
-  padding-top: 20%;
-  padding-bottom: 20%;
+.logo-glitch-index img {
+  content: url("https://glitch-inc.000webhostapp.com/img/avatar_circle.ico");
+  height: 56px;
+  width: 56px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 
-h3 {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.item-toolbar {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  margin: 0 10px;
 }
 
-h1 {
-  font-size: 160px;
+.header {
+  color: #E57373;
+  background-color: #FFFFFF;
+  font-size: 56px;
+  width: 100%;
   text-align: center;
+  margin-top: 72px;
+  padding-bottom: 25px;
+}
+
+.text {
+  padding: 48px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.font-family {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
